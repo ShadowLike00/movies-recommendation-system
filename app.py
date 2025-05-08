@@ -4,6 +4,11 @@ import pandas as pd
 import requests
 import time
 
+import streamlit as st
+
+api_key = st.secrets["TMDB_API_KEY"]
+
+
 # Retry-enabled requests session
 session = requests.Session()
 adapter = requests.adapters.HTTPAdapter(max_retries=3)
