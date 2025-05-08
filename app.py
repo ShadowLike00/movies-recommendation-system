@@ -7,7 +7,7 @@ import os
 import time
 
 # --- CONFIG: Google Drive Download ---
-SIMILARITY_DRIVE_ID = "YOUR_FILE_ID"  # Replace with your actual file ID
+SIMILARITY_DRIVE_ID = "1ERS0_K6jY4kGPBk3gTv702dQ81q4Uj9a"  # Replace with your actual file ID
 SIMILARITY_LOCAL_PATH = "similarity.pkl"
 
 # --- Download similarity.pkl from Google Drive if not found ---
