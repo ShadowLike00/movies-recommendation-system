@@ -9,7 +9,7 @@ import os
 SIMILARITY_FILE = "similarity.pkl"
 
 if not os.path.exists(SIMILARITY_FILE):
-    url = "https://drive.google.com/file/d/1ERS0_K6jY4kGPBk3gTv702dQ81q4Uj9a/view?usp=drive_link"
+    url = "https://drive.google.com/file/d/1ERS0_K6jY4kGPBk3gTv702dQ81q4Uj9a/view?usp=sharing"
     gdown.download(url, SIMILARITY_FILE, quiet=False)
 
 
